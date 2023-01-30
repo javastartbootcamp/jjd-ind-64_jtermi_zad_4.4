@@ -1,4 +1,6 @@
-package pl.javastart.task;
+package pl.javastart.task.restricted;
+
+import pl.javastart.task.restricted.Config;
 
 public class Offer {
 
@@ -21,11 +23,16 @@ public class Offer {
     public Offer() {
     }
 
-    public void createLoanOffer(int requestedAmount, int earnings, Config config) {
-        if (earnings >= config.getMinRequiredEarnings()) {
-            percentage = config.getPercentage();
-            valid = true;
-            value = requestedAmount;
-        }
+    void setValid(boolean valid) {
+        this.valid = valid;
     }
+
+    void setValue(double value) {
+        this.value = value;
+    }
+
+    void setPercentage(double percentage) {
+        this.percentage = percentage;
+    }
+
 }

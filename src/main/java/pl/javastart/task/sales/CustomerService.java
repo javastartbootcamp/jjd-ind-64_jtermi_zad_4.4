@@ -1,4 +1,6 @@
-package pl.javastart.task;
+package pl.javastart.task.sales;
+
+import pl.javastart.task.restricted.Offer;
 
 public class CustomerService {
     public void payoutOffer(Offer offer) {

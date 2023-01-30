@@ -1,4 +1,7 @@
-package pl.javastart.task;
+package pl.javastart.task.sales;
+
+import pl.javastart.task.restricted.Offer;
+import pl.javastart.task.restricted.SalesRepresentative;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,7 +10,7 @@ public class Main {
         // to nie powinno być możliwe
         // salesRepresentative.config.minRequiredEarnings = 0;
 
-        Offer offer = salesRepresentative.createLoanOffer(1_000_000, 2000);
+        Offer offer = salesRepresentative.createLoanOffer(1_000_000, 1000);
 
         // to również nie powinno być możliwe
         // offer.valid = true;
