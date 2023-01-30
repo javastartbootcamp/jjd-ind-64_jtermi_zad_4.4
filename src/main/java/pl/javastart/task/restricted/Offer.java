@@ -1,7 +1,5 @@
 package pl.javastart.task.restricted;
 
-import pl.javastart.task.restricted.Config;
-
 public class Offer {
 
     private boolean valid;
@@ -18,9 +16,6 @@ public class Offer {
 
     public double getPercentage() {
         return percentage;
-    }
-
-    public Offer() {
     }
 
     void setValid(boolean valid) {

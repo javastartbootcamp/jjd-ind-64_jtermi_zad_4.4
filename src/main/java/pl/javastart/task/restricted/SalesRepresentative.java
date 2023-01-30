@@ -1,8 +1,5 @@
 package pl.javastart.task.restricted;
 
-import pl.javastart.task.restricted.Config;
-import pl.javastart.task.restricted.Offer;
-
 public class SalesRepresentative {
 
     private Config config;
