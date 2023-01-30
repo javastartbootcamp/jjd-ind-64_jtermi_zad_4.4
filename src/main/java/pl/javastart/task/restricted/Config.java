@@ -1,6 +1,6 @@
 package pl.javastart.task.restricted;
 
-public class Config {
+class Config {
 
     private int minRequiredEarnings = 2000;
     private double percentage = 0.03;
@@ -13,4 +13,3 @@ public class Config {
         return percentage;
     }
 }
-
